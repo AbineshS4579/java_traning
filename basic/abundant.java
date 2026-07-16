@@ -14,9 +14,5 @@ public class abundant {
             System.out.println("abundant");
         else
             System.out.println("not abundant");
-        if(c==n)
-            System.out.println("perfect");
-        else
-            System.out.println("not perfect");
 	}
 }
