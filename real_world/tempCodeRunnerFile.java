@@ -1,4 +1,3 @@
- // for(int j=i;j>=1;j--){
-            //     System.out.print(j);
-                
+for(int j=0;j<n-i;j++){
+            //     System.out.print(" ");
             // }
