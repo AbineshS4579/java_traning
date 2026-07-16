@@ -5,7 +5,7 @@ public class fore {
         l.forEach(System.out::print);
         for(int a:l)
             System.out.println(a);
-        for()
+    
         
 
     }
