@@ -1,4 +1,4 @@
-package real_world;
+
 public class ant {
     public static void main(String[] args) {
         int a[]={1,-1,1,-1,1};
