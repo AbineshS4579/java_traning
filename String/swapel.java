@@ -4,10 +4,15 @@ public class swapel {
        int n=arr.length;
        int d=2;
 for(int i=0;i<d;i++){
-    for(int j=0;j<n-1;j++){
-      int temp=arr[j];
-      arr[j]=arr[j+1];
-      arr[j+1]=temp;
+    // for(int j=0;j<n-1;j++){
+    //   int temp=arr[j];
+    //   arr[j]=arr[j+1];
+    //   arr[j+1]=temp;
+    // }
+    for(int j=n-1;j>0;j--){
+      int t=arr[j];
+      arr[j]=arr[j-1];
+      arr[j-1]=t;
     }
 }
 for(int a: arr)
