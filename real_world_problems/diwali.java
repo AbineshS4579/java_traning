@@ -8,7 +8,7 @@ public class diwali {
         for(g=1;g<=p&&k+5*g<=n-t;g++){
                k+=5*(g);
         }
-        System.out.println(g-1);
+        System.out.println(g-1+" "+(k));
 
     }
 }

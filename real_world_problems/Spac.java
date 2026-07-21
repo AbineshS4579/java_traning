@@ -5,7 +5,7 @@ public class Spac {
         String st=s.nextLine();
         int ct=0;
         for(char c:st.toCharArray()){
-        if(Character.isSpace(c))
+        if(c==' ')
             ct++;
 
         }
