@@ -5,6 +5,7 @@ public class boopathi {
         Scanner s=new Scanner(System.in);
 		int n=s.nextInt(),k=0;
         for(int i=0;i<n;i++){
+			// b
             for(int j=0;j<n;j++){
 				if(j==0||i==0||j==n-1||i==n-1||i==n/2)
 					System.out.print("@ ");
@@ -12,6 +13,7 @@ public class boopathi {
 					System.out.print("  ");
 
 			}
+			//o
             for(int j=1;j<3;j++) {
 					System.out.print("  ");
 			}
@@ -22,6 +24,7 @@ public class boopathi {
 					System.out.print("  ");
 
 			}
+			//o
             for(int j=1;j<3;j++) {
 					System.out.print("  ");
 			}
@@ -32,6 +35,7 @@ public class boopathi {
 					System.out.print("  ");
 
 			}
+			//p
             for(int j=1;j<3;j++) {
 					System.out.print("  ");
 			}
@@ -42,6 +46,7 @@ public class boopathi {
 					System.out.print("  ");
 
 			}
+			//a
             for(int j=i;j<n-1;j++) {
 					System.out.print("  ");
 			}
@@ -53,7 +58,7 @@ public class boopathi {
 					System.out.print("  & ");
 				else
 					System.out.print("    ");
-				
+			//t	
 			}
           	for(int j=i;j<n;j++) {
 					System.out.print("  ");
@@ -66,6 +71,7 @@ public class boopathi {
 					System.out.print("  ");
 
 			}
+			//h
             for(int j=1;j<3;j++) {
 					System.out.print("  ");
 			}
@@ -76,6 +82,7 @@ public class boopathi {
 					System.out.print("  ");
 
 			}
+			//i
             for(int j=1;j<3;j++) {
 					System.out.print("  ");
 			}
@@ -86,6 +93,7 @@ public class boopathi {
 					System.out.print("  ");
 
 			}
+			//r
              for(int j=1;j<3;j++) {
 					System.out.print("  ");
 			}
@@ -96,6 +104,7 @@ public class boopathi {
 					System.out.print("  ");
 
 			}
+			//a
             for(int j=i;j<n-1;j++) {
 					System.out.print("  ");
 			}
@@ -109,6 +118,7 @@ public class boopathi {
 					System.out.print("    ");
 				
 			}
+			//j
             for(int j=i;j<n;j++) {
 					System.out.print("  ");
 			}
@@ -119,6 +129,7 @@ public class boopathi {
 					System.out.print("  ");
 
 			}
+			//a
             for(int j=i;j<n-1;j++) {
 					System.out.print("  ");
 			}
