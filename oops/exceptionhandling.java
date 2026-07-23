@@ -8,7 +8,8 @@ public class exceptionhandling {
             int n=i/j;
             System.out.println(n+" "+a[4]);
         }catch(Exception e){
-            e.printStackTrace();
+            // e.printStackTrace();
+            System.out.println(e.getMessage());
         }
     }
 }

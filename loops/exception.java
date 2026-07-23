@@ -1,8 +1,4 @@
-import java.io.*;
 import java.util.*;
-import java.text.*;
-import java.math.*;
-import java.util.regex.*;
 
 public class exception {
     static int B;
@@ -20,7 +16,7 @@ public class exception {
             }
         } catch (Exception e) {
             flag = false;
-            System.out.println(e);
+            System.out.println(e.getMessage());
         }
     }
 
