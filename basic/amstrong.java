@@ -8,7 +8,7 @@ int re=0;
 while(n>0){
 int r=n%10;
 
-re+=r*r*r;
+re+=Math.pow(r,3);
 n/=10;
 }
 if(re==k){
