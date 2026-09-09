@@ -1,0 +1,47 @@
+
+
+import java.util.Scanner;
+class nodei{
+    int val;
+    nodei next;
+    nodei(int val){
+        this.val=val;
+    }
+}
+public class circulerly {
+
+    static nodei h;
+    static void in(int n){
+        nodei no=new nodei(n);
+        if(h==null){
+            h=no;
+            no.next=h;
+            return;
+        }
+//        if(h!=null){
+//            no.next=h;
+//            h.prev=no;
+//        }
+        nodei t=h;
+        while(t.next!=h){
+            t=t.next;
+        }
+        no.next=h;
+        t.next=no;
+        h=no;
+    }
+    public static void main(String[] args){
+        Scanner s=new Scanner(System.in);
+        int n=s.nextInt(),a[]=new int[n];
+        for(int i=0;i<n;i++)a[i]=s.nextInt();
+        Arrays.sort(a);
+        for(int i=n-1;i>=0;i--){
+            in(i);
+        }
+        nodei t=h;
+        do{
+            System.out.println(t.val+" ");
+            t=t.next;
+        }while(t!=h);
+    }
+}
